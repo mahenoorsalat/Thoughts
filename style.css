@@ -1,0 +1,62 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    height: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+body{
+    background: url(img4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#thoughts {
+    padding: 15px;
+    background-color: #ffffff; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    text-align: center; 
+    max-width: 600px; 
+}
+
+.thought {
+    font-size: 2rem; 
+    color: #3e0d0d; 
+    line-height: 1.6; 
+    margin-bottom: 20px;
+    font-style: italic; 
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #ffffff; 
+    background-color: #3e0d0d; 
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #852b2b; 
+}
+
+
+@media (max-width:420px){
+   #thoughts{
+    font-size: 21px;
+    width: 80%;
+   }
+
+   .thought {
+    font-size: 21px;
+   }
+}
